@@ -1,0 +1,13 @@
+/node_modules
+/coverage
+/dist
+/build
+/prettier
+/config/serviceAccountKey.json
+
+.DS_Store
+.package-lock.json
+
+.vscode
+.env
+logs
