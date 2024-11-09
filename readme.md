@@ -72,7 +72,7 @@ Mentalys App is a comprehensive mental health application built on Google Cloud 
 ### Configuration Steps
 1. Clone the repository
 ```bash
-git clone https://github.com/Mentalys-App/backend
+git clone https://github.com/Mentalys-App/api-contact-psikiater.git
 ```
 
 2. Install Dependency
@@ -100,6 +100,7 @@ Coming Soon!
 ```bash
 Coming Soon!
 ```
+6. Need file .env and serviceAccount.json [contact me](c179b4ky4138@bangkit.academy) 
 
 ## Environment Variables
 Create a `.env` file with the following variables:
