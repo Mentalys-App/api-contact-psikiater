@@ -100,6 +100,7 @@ Coming Soon!
 ```bash
 Coming Soon!
 ```
+6. Need file .env and serviceAccount.json [contact me](c179b4ky4138@bangkit.academy) 
 
 ## Environment Variables
 Create a `.env` file with the following variables:
