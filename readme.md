@@ -1,81 +1,17 @@
 
-# Mentalys App Backend Architecture
+# Feature/API CONTACT PSIKIATER
 
-## Overview
-Mentalys App is a comprehensive mental health application built on Google Cloud Platform (GCP). This repository contains the backend architecture that powers the application, utilizing various GCP services for robust, scalable, and secure operations.
-
-![Arsitektur Backend Aplikasi drawio](https://github.com/user-attachments/assets/a3be2024-6099-4eb9-831e-917cdb76c3fb)
-
-
-## Architecture Components
-
-### Frontend Integration
-- **UI/UX Interface**: Mobile application interface
-- **Local Storage**: Room Database for offline data persistence
-
-### Authentication
-- **Firebase Authentication**: Handles user authentication and authorization
-- Secure user session management
-- OAuth integration
-
-### Backend Services
-
-#### Kubernetes Clusters
-- Deployed on GCP Kubernetes Engine
-- Manages containerized services
-- Ensures high availability and scalability
-- Handles load balancing
-
-#### API Services
-1. **Node.js API (Cloud Run)**
-   - RESTful API endpoints
-   - Business logic implementation
-   - User data management
-   - Service orchestration
-
-2. **ML Service (Flask API)**
-   - Machine Learning model integration
-   - TensorFlow implementation
-   - Real-time predictions
-   - Model serving endpoints
-
-### Data Storage
-1. **ML Data Storage**
-   - Google Cloud Storage
-   - Stores machine learning models
-   - Training data management
-   - Model artifacts
-
-2. **User Data Storage**
-   - Firebase Firestore
-   - NoSQL database
-   - Real-time data synchronization
-   - Scalable data storage
-
-## Technology Stack
-- **Backend Framework**: Node.js, Flask
-- **Container Orchestration**: Kubernetes
-- **Cloud Services**: Google Cloud Platform
-- **Authentication**: Firebase Auth
-- **Database**: Firestore
-- **ML Framework**: TensorFlow
-
-## Setup Instructions
-
-### Prerequisites
-1. Google Cloud Platform account
-2. Firebase project setup
-3. Node.js and Python installed
-4. Google Cloud CLI
-5. kubectl installed
 
 ### Configuration Steps
 1. Clone the repository
 ```bash
 git clone https://github.com/Mentalys-App/api-contact-psikiater.git
 ```
-
-2. Install Dependency
+2. Go to the project directory
+```bash
+cd api-contact-psikiater
+```
+3. Install Dependency
 - NPM
 ```bash
 npm install
@@ -84,43 +20,25 @@ npm install
 ```bash
 yarn install
 ```
-
-3. Set up GCP credentials
+- RUN
 ```bash
-Coming Soon!
+npm run dev
 ```
 
-4. Enable required GCP APIs
-- Cloud Run API
-- Kubernetes Engine API
-- Cloud Storage API
-- Firebase API
+3. Need file .env and serviceAccount.json [contact me](c179b4ky4138@bangkit.academy) 
 
-5. Deploy to GCP
-```bash
-Coming Soon!
-```
-6. Need file .env and serviceAccount.json [contact me](c179b4ky4138@bangkit.academy) 
+### Documentasi API
 
-## Environment Variables
-Create a `.env` file with the following variables:
+
+or access by link
+
 ```bash
-Coming Soon!
+  http://localhost:port/api-docs
 ```
 
-## Security Considerations
-- All API endpoints are secured with Firebase Authentication
-- Data encryption in transit and at rest
-- Regular security audits
-- Role-based access control (RBAC)
 
-## Contributing
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## Screenshots
+![Image](https://github.com/user-attachments/assets/39688334-161f-41ef-9b2b-7e7370d141a5)
+![Image](https://github.com/user-attachments/assets/c509a660-44f4-492f-91e2-adad8be66c46)
+![Image](https://github.com/user-attachments/assets/3c02c582-058e-452a-9d80-19c13073ae57)
 
-
-## Contact
-Project Link: [https://github.com/Mentalys-App/backend](https://github.com/Mentalys-App/backend)
